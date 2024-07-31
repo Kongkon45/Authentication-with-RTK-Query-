@@ -1,4 +1,4 @@
-// services/auth.js
+
 import auth from "@/firebase/firebase.config";
 import { createApi, fakeBaseQuery } from "@reduxjs/toolkit/query/react";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";

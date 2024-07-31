@@ -27,7 +27,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
         {!user ? (
-          <div className="space-y-6">
+          <div className="w-1/2">
             {/* <LoginForm /> */}
             <SignupForm />
           </div>
